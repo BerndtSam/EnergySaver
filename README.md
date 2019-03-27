@@ -3,7 +3,7 @@ Want to save energy in your office space? Use this to ensure your office's deskt
 
 Currently works on Windows.
 
-##Download
+## Download
 Download git https://git-scm.com/downloads
 Open Git Bash
 Navigate to an easily accessible directory
@@ -11,6 +11,7 @@ git clone https://github.com/BerndtSam/EnergySaver.git
 
 ## Enable
 Open task scheduler
+
 On the left navigation pane, select "Task Scheduler Library" -> Top Menu Bar -> Action -> Import Task -> Select "EnergySaverShutdown.xml" -> OK
 Find the "EnergySaverShutdown" task in your list of tasks and ensure its Status is "Ready."
 
@@ -18,6 +19,7 @@ Your computer will now shut off at 6:30PM every night!
 
 ## Disable
 Open task scheduler
+
 On the left navigation pane, select Task Scheduler Library -> Find "EnergySaverShutdown" -> Right click "EnergySaverShutdown" -> Disable.
 
 ## Extra Must Knows

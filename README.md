@@ -1,16 +1,19 @@
 # EnergySaver
-Want to save energy in your office space? Use this to ensure your office's desktops turn off at 9:00PM every night!
+Want to save energy in your office space? Use this to ensure your office's desktops shut down at 6:30PM every night!
 
 Currently works on Windows.
 
 ##Download
+Download git https://git-scm.com/downloads
+Open Git Bash
+Navigate to an easily accessible directory
 git clone https://github.com/BerndtSam/EnergySaver.git
 
 ##Enable
 Open task scheduler
 Menu Bar -> Action -> Import Task -> Select "EnergySaverShutdown.xml" -> OK
 
-Your computer will now shut off at 9:00PM every night! 
+Your computer will now shut off at 6:30PM every night! 
 
 ##Disable
 Open task scheduler
